@@ -1,0 +1,29 @@
+﻿# ---- Visual Studio ----
+.vs/
+*.user
+*.suo
+*.cache
+*.aps
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.recipe
+*.FileListAbsolute.txt
+*.lastbuildstate
+*.log
+
+# ---- 编译产物 ----
+[Bb]in/
+[Oo]bj/
+x64/
+Debug/
+Release/
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 例外：内嵌进 exe 的驱动二进制必须保留
+!Classroom Killer/Driver/ClassKillerProtect.sys
